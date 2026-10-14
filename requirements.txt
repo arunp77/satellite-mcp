@@ -1,0 +1,13 @@
+xarray 
+netCDF4 
+h5py 
+h5netcdf 
+numpy
+matplotlib
+seaborn
+pandas
+pytest
+flask
+satpy
+scikit-learn
+
