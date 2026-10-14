@@ -271,4 +271,3 @@ The README explains the design and workflow; implementation details remain in th
 This project combines scientific-data handling with a simple MCP interface. It starts with a controlled synthetic dataset, implements reusable quality checks, verifies those checks using unit tests, and exposes the functions as tools an AI application can call.
 
 The central design principle is to keep **deterministic data processing separate from natural-language interaction**. MCP provides the interface, while Python, NumPy, xarray, and HDF5/NetCDF libraries perform the actual inspection. That separation makes the project easier to test, debug, extend, and eventually adapt to more realistic satellite product-quality workflows.
-# satellite-mcp
